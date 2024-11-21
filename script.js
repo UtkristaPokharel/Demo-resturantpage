@@ -21,4 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		event.preventDefault();
 		loadContactUsPage(); //Load the contact us page
 	});
+	document.getElementById("about-us").addEventListener("click", (event) => {
+		event.preventDefault();
+		loadAboutUsPage(); //Load the about us page
+	});
 });
