@@ -1,6 +1,7 @@
 import { loadHomePage } from "./home.js";
 import { loadMenuPage } from "./menu.js";
 import { loadContactUsPage } from "./contactus.js";
+import { loadAboutUsPage } from "./aboutus.js";
 
 document.addEventListener("DOMContentLoaded", function () {
 	loadHomePage(); // Load the home page initially
